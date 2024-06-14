@@ -1,0 +1,72 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffffff;
+}
+
+.border-4 {
+    border-color: hsl(332, 93%, 61%) !important;
+}
+
+.image {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, .75)), url(images/FullStackLogo.png);
+    background-size: 720px 600px;
+    background-position-x: center;
+    background-position-y: 200px;
+    background-repeat: no-repeat;
+}
+
+.mainNav {
+    background: #f776fc !important;
+}
+
+.table>:not(caption)>*>* {
+    background-color: transparent;
+}
+
+.table-bordered {
+    border-color: rgb(0, 0, 0);
+}
+
+.dashboard {
+    background: linear-gradient(to top right, #C6FFDD, #30E8BF);
+}
+
+.billNav {
+    background: #f587c1;
+    top: 0px;
+}
+
+.siginback {
+    background: linear-gradient(to bottom right, #feac5e, #c779d0, #fd1d1d);
+}
+
+.shadow-lg {
+    box-shadow: 0 0 15px rgb(0, 10, 3) !important;
+}
+
+.signin {
+    background: linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);
+}
+
+.outlet {
+    background: linear-gradient(to top, #fc4a1a 0%, #f7b733 80%);
+}
+
+.allBills {
+    background: linear-gradient(to bottom left, #33cc33 0%, #33cccc 100%);
+}
+
+.allBillsTable {
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffcc 100%);
+}
+
+.addnewbill {
+    background: linear-gradient(to bottom, #4AC29A 0%, #BDFFF3 100%);
+}
+
+.print {
+    background: linear-gradient(to bottom, #f2f0ed, #ffffff);
+}
